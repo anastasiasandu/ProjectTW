@@ -1,0 +1,14 @@
+#grid-container{
+    width: 1450px;
+    height: 700px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    text-align: center; 
+    color: blueviolet; 
+}
+#grid-item2{
+    background-image: url(../public/imgs/me.jpeg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: auto; 
+} 

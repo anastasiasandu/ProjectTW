@@ -12,7 +12,7 @@ body{
     background-color: whitesmoke;
 }
 .about{
-    background: url(cutepink2.jpg) no-repeat left;
+    background: url(../public/imgs/cutepink2.jpg) no-repeat left;
     background-size: 85%;
     width: 900px;
     background-color: whitesmoke;

@@ -72,3 +72,26 @@ header{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+.container-header {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+span::before {
+    content: " simple";
+    text-transform: uppercase;
+    font-family: arial;
+    color: pink;
+    animation: word-switch 5s infinite;
+}
+@keyframes word-switch {
+    0% {
+        content: " simple";
+    }
+    50% {
+        content: " great"
+    }
+    100% {
+        content: " useful"
+    }
+}
