@@ -1,0 +1,74 @@
+.titlu {
+    color: violet;
+    margin: 0px auto;
+    text-align: center;  
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 100;
+  } 
+body {    
+    background-color: black; 
+} 
+*::selection {
+    background-color: pink;
+    color: black;
+}
+#grapes{ 
+    float:  right;
+    width: 400px;
+    height: 300px;
+}
+#cuprins{
+    color: white;
+    width: auto;
+    height: auto;
+    display: grid;
+}
+#titlu1{ 
+    font-size: 25px; 
+}
+#nutella{
+    width: 300px;
+    height: 300px;
+}
+li,a{
+    font-weight: 500;
+    font-size: 18px;
+    color: turquoise;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+.navbar{
+    padding: 10px;
+    list-style: none;
+    padding-left: 0px; 
+} 
+.navbar li{
+    display: inline-block;
+    padding: 0px 7px;
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover,.navbarlink:hover{
+    color: pink;
+}
+.navbar li a:focus {
+    color: papayawhip;
+}
+.navbarlink:active {
+    color: peachpuff;
+}
+.navbarlink::before {
+    content: "Sandu";
+}
+.navbarlink{
+    padding: 9px 25px; 
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}

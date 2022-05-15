@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.about{
+    background: url(cutepink2.jpg) no-repeat left;
+    background-size: 85%;
+    width: 900px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.in{
+    width: 55%;
+    float: right;
+    background-color: white;
+    padding: 50px;
+}
+.in h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.languages{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+@media screen and (max-width:1200px){
+    .in{
+        padding: 80px;
+    }   
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .in{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .about{ 
+        padding: 0;
+    }
+    .in{
+        padding: 60px;
+    }
+}
